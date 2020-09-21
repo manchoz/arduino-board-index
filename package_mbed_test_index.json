@@ -1,8 +1,8 @@
 {
   "packages": [
     {
-      "name": "arduino-dev",
-      "maintainer": "Arduino (manchoz)",
+      "name": "arduino-test",
+      "maintainer": "Arduino (test)",
       "websiteURL": "http://www.arduino.cc/",
       "email": "packages@arduino.cc",
       "help": {
@@ -10,9 +10,9 @@
       },
       "platforms": [
         {
-          "name": "Arduino mbed-enabled Boards (manchoz)",
+          "name": "Arduino mbed-enabled Boards (test)",
           "architecture": "mbed",
-          "version": "1.2.2-manchoz",
+          "version": "1.2.3",
           "category": "Contributed",
           "url": "https://manchoz.github.io/arduino-board-index/cores/ArduinoCore-mbed-1.2.3.tar.bz2",
           "archiveFileName": "ArduinoCore-mbed-1.2.3.tar.bz2",
