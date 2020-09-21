@@ -1,0 +1,56 @@
+{
+  "packages": [
+    {
+      "name": "arduino-dev",
+      "maintainer": "Arduino (manchoz)",
+      "websiteURL": "http://www.arduino.cc/",
+      "email": "packages@arduino.cc",
+      "help": {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+      "platforms": [
+        {
+          "name": "Arduino mbed-enabled Boards (manchoz)",
+          "architecture": "mbed",
+          "version": "1.2.2-manchoz",
+          "category": "Contributed",
+          "url": "https://manchoz.github.io/arduino-board-index/cores/ArduinoCore-mbed-1.2.3.tar.bz2",
+          "archiveFileName": "ArduinoCore-mbed-1.2.3.tar.bz2",
+          "checksum": "SHA-256:eab11abbd5665a4b5b71887d6a560f0214829ba2f999cb8ed403a54c1f7347bf",
+          "size": "104241259",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Outdoor Carrier"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino13"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino1"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino2",
+              "name": "dfu-util"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
