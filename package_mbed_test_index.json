@@ -88,6 +88,46 @@
               "name": "dfu-util"
             }
           ]
+        },
+        {
+          "name": "Arduino mbed-enabled Boards (test)",
+          "architecture": "mbed",
+          "version": "1.2.3-manchoz-rc3",
+          "category": "Contributed",
+          "url": "https://github.com/manchoz/arduino-board-index/releases/download/v1.2.3-manchoz-rc3/ArduinoCore-mbed-1.2.3-manchoz-rc3.tar.bz2",
+          "archiveFileName": "ArduinoCore-mbed-1.2.3-manchoz-rc3.tar.bz2",
+          "checksum": "SHA-256:e8796f2b59478505b6e229db932d6062b01d058ada654f0e0820d0e6025315ab",
+          "size": "104240889",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Outdoor Carrier"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino13"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino1"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino2",
+              "name": "dfu-util"
+            }
+          ]
         }
       ],
       "tools": []
