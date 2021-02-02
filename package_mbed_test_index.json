@@ -1,16 +1,16 @@
 {
   "packages": [
     {
-      "name": "arduino-test",
-      "maintainer": "Arduino (test)",
+      "name": "arduino-manchoz",
+      "maintainer": "Arduino (manchoz)",
       "websiteURL": "http://www.arduino.cc/",
-      "email": "packages@arduino.cc",
+      "email": "g.mancini@arduino.cc",
       "help": {
         "online": "http://www.arduino.cc/en/Reference/HomePage"
       },
       "platforms": [
         {
-          "name": "Arduino mbed-enabled Boards (test)",
+          "name": "Arduino mbed-enabled Boards (manchoz)",
           "architecture": "mbed",
           "version": "1.2.3",
           "category": "Contributed",
@@ -23,7 +23,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Outdoor Carrier"
+              "name": "Arduino Edge Control"
             }
           ],
           "toolsDependencies": [
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "name": "Arduino mbed-enabled Boards (test)",
+          "name": "Arduino mbed-enabled Boards (manchoz)",
           "architecture": "mbed",
           "version": "1.2.3-manchoz-rc2",
           "category": "Contributed",
@@ -63,7 +63,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Outdoor Carrier"
+              "name": "Arduino Edge Control"
             }
           ],
           "toolsDependencies": [
@@ -90,7 +90,7 @@
           ]
         },
         {
-          "name": "Arduino mbed-enabled Boards (test)",
+          "name": "Arduino mbed-enabled Boards (manchoz)",
           "architecture": "mbed",
           "version": "1.2.3-manchoz-rc3",
           "category": "Contributed",
@@ -103,7 +103,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Outdoor Carrier"
+              "name": "Arduino Edge Control"
             }
           ],
           "toolsDependencies": [
@@ -130,7 +130,7 @@
           ]
         },
         {
-          "name": "Arduino mbed-enabled Boards (test)",
+          "name": "Arduino mbed-enabled Boards (manchoz)",
           "architecture": "mbed",
           "version": "1.2.3-manchoz-rc4",
           "category": "Contributed",
@@ -143,7 +143,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Outdoor Carrier"
+              "name": "Arduino Edge Control"
             }
           ],
           "toolsDependencies": [
@@ -170,7 +170,7 @@
           ]
         },
         {
-          "name": "Arduino mbed-enabled Boards (test)",
+          "name": "Arduino mbed-enabled Boards (manchoz)",
           "architecture": "mbed",
           "version": "1.2.3-manchoz-rc5",
           "category": "Contributed",
@@ -183,7 +183,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Outdoor Carrier"
+              "name": "Arduino Edge Control"
             }
           ],
           "toolsDependencies": [
@@ -210,7 +210,7 @@
           ]
         },
         {
-          "name": "Arduino mbed-enabled Boards (test)",
+          "name": "Arduino mbed-enabled Boards (manchoz)",
           "architecture": "mbed",
           "version": "1.3.1-manchoz-rc0",
           "category": "Contributed",
@@ -223,7 +223,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Outdoor Carrier"
+              "name": "Arduino Edge Control"
             }
           ],
           "toolsDependencies": [
@@ -250,7 +250,7 @@
           ]
         },
         {
-          "name": "Arduino mbed-enabled Boards (test)",
+          "name": "Arduino mbed-enabled Boards (manchoz)",
           "architecture": "mbed",
           "version": "1.3.1-manchoz-rc1",
           "category": "Contributed",
@@ -263,7 +263,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Outdoor Carrier"
+              "name": "Arduino Edge Control"
             }
           ],
           "toolsDependencies": [
@@ -290,7 +290,7 @@
           ]
         },
         {
-          "name": "Arduino mbed-enabled Boards (test)",
+          "name": "Arduino mbed-enabled Boards (manchoz)",
           "architecture": "mbed",
           "version": "1.3.1-manchoz-rc2",
           "category": "Contributed",
@@ -303,7 +303,47 @@
           },
           "boards": [
             {
-              "name": "Arduino Outdoor Carrier"
+              "name": "Arduino Edge Control"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino13"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino2",
+              "name": "dfu-util"
+            }
+          ]
+        },
+        {
+          "name": "Arduino mbed-enabled Boards (manchoz)",
+          "architecture": "mbed",
+          "version": "1.3.1-manchoz-rc3",
+          "category": "Contributed",
+          "url": "https://github.com/manchoz/arduino-board-index/releases/download/v1.3.1-manchoz-rc2/ArduinoCore-mbed-1.3.1-manchoz-rc3.tar.bz2",
+          "archiveFileName": "ArduinoCore-mbed-1.3.1-manchoz-rc2.tar.bz2",
+          "checksum": "SHA-256:f95dde20705bead41c51e869add3485a72b9e0b02a283521ebb3f5db359179b8",
+          "size": "118049278",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Edge Control"
             }
           ],
           "toolsDependencies": [
