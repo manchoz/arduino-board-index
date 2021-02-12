@@ -368,6 +368,46 @@
               "name": "dfu-util"
             }
           ]
+        },
+        {
+          "name": "Arduino mbed-enabled Boards (manchoz)",
+          "architecture": "mbed",
+          "version": "1.3.3-manchoz-rc1",
+          "category": "Contributed",
+          "url": "https://github.com/manchoz/arduino-board-index/releases/download/v1.3.3-manchoz-rc1/ArduinoCore-mbed-1.3.3-manchoz-rc1.tar.bz2",
+          "archiveFileName": "ArduinoCore-mbed-1.3.3-manchoz-rc1.tar.bz2",
+          "checksum": "SHA-256:f658d4608367c9cc19c93dc3186a6ccf4a86d91b6a315e4047f3fc79be296e4a",
+          "size": "118050514",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Edge Control"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino13"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino2",
+              "name": "dfu-util"
+            }
+          ]
         }
       ],
       "tools": []
