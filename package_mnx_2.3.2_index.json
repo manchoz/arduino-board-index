@@ -173,8 +173,8 @@
           "category": "Arduino",
           "url": "https://github.com/manchoz/arduino-board-index/releases/download/v2.3.2-mnx/ArduinoCore-mbed-portenta-2.3.2.tar.bz2",
           "archiveFileName": "ArduinoCore-mbed-portenta-2.3.2.tar.bz2",
-          "checksum": "SHA-256:b2ebfd8ad633f2992a3d471507ff1cc4084f5f1b7bb6ae570927a3876b444722",
-          "size": "25284668",
+          "checksum": "SHA-256:97f68f2d218877bc1bb5b52b02ed3be8bff6475d87e246f4de728a99dabeaa70",
+          "size": "25344703",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
           },
