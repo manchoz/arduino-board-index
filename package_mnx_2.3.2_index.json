@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "[DEPRECATED - Please install standalone packages] Arduino Mbed OS Boards",
+          "name": "[DEPRECATED - Please install standalone packages] Arduino Mbed OS Boards (MNX)",
           "architecture": "mbed",
           "version": "2.3.2",
           "deprecated": true,
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "name": "Arduino Mbed OS Edge Boards",
+          "name": "Arduino Mbed OS Edge Boards (MNX)",
           "architecture": "mbed_edge",
           "version": "2.3.2",
           "category": "Arduino",
@@ -116,7 +116,7 @@
           ]
         },
         {
-          "name": "Arduino Mbed OS Nano Boards",
+          "name": "Arduino Mbed OS Nano Boards (MNX)",
           "architecture": "mbed_nano",
           "version": "2.3.2",
           "category": "Arduino",
@@ -167,7 +167,7 @@
           ]
         },
         {
-          "name": "Arduino Mbed OS Portenta Boards",
+          "name": "Arduino Mbed OS Portenta Boards (MNX)",
           "architecture": "mbed_portenta",
           "version": "2.3.2",
           "category": "Arduino",
@@ -202,7 +202,7 @@
           ]
         },
         {
-          "name": "Arduino Mbed OS RP2040 Boards",
+          "name": "Arduino Mbed OS RP2040 Boards (MNX)",
           "architecture": "mbed_rp2040",
           "version": "2.3.2",
           "category": "Arduino",
