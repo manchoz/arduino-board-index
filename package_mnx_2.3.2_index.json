@@ -122,8 +122,8 @@
           "category": "Arduino",
           "url": "https://github.com/manchoz/arduino-board-index/releases/download/v2.3.2-mnx/ArduinoCore-mbed-nano-2.3.2.tar.bz2",
           "archiveFileName": "ArduinoCore-mbed-nano-2.3.2.tar.bz2",
-          "checksum": "SHA-256:a5509fd04a062e5b4706d0f5b0f0b91a6520762b9d8de43ac805b72ad9e63961",
-          "size": "6383662",
+          "checksum": "SHA-256:6d5bf03addc1c3d1d8ca62fce4eb1795a9cb8a7086a205e097eebc94eede72c4",
+          "size": "6427754",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-mbed/issues"
           },
